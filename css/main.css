@@ -1,0 +1,145 @@
+      body {
+          background-image: url('https://miro.medium.com/max/1400/0*Yx9GoNNITm9qtqkw.png');
+          background-size: cover; //設定背景圖片的填滿方式
+      }
+
+
+      .text {
+          color: white;
+      }
+
+      #icon_box {
+          float: left;
+          position: relative;
+          left: 30px;
+          top: 15px;
+      }
+
+      #title_box {
+          float: left;
+          position: relative;
+          left: 50px;
+          top: 20px;
+      }
+
+      #introduce_box {
+          border: 3px solid #484d53;
+          width: 900px;
+          height: 400px;
+          overflow-y: auto;
+
+          line-height: 3rem;
+          font-size: 20px;
+          position: absolute;
+
+          top: 95px;
+          left: 50%;
+          transform: translate(-50%, 0);
+      }
+
+      .btn-secondary {
+          height: 56px;
+          border-radius: 28px;
+      }
+
+      #connect_box {
+          float: right;
+          position: relative;
+          top: 15px;
+          left: -30px;
+      }
+
+      #add_token_box {
+          float: right;
+          position: relative;
+          top: 15px;
+          left: -50px;
+      }
+
+      #claim_box {
+          float: right;
+          position: relative;
+          top: 15px;
+          left: -70px;
+          /* position: absolute;
+        bottom: 160px;
+        left: 50%;
+        transform: translate(-50%, 0); */
+      }
+
+      #claim_introduce_text_box {
+          position: absolute;
+          bottom: 100px;
+          left: 50%;
+          transform: translate(-50%, 0);
+      }
+
+      #menu {
+          display: flex;
+      }
+
+      /* #communication_introduced {
+          font-size: 21px;
+
+          position: absolute;
+          bottom: 50px;
+
+          left: 50%;
+          transform: translate(-50%, 0);
+
+      } */
+      #menu_title {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          margin: auto;
+      }
+
+      #menu_box_1 {
+          left: 98%;
+      }
+
+      #menu_box_2 {
+
+          left: 90%;
+          /* transform: translate(-50%, 0); */
+      }
+
+      #menu_box_3 {
+          left: 85%;
+      }
+
+      #menu_box_4 {
+          left: 80%;
+      }
+
+      #menu_box_5 {
+          left: 75%;
+      }
+
+      #menu_box_6 {
+          position: absolute;
+          left: 75%;
+      }
+
+      #menu_box_7 {
+          bottom: -260px;
+          /* left: 5%; */
+      }
+
+      #twitter_text_box {
+          position: absolute;
+          left: 80%;
+      }
+
+      #twitter_img_box {
+          left: 80%;
+      }
+
+      #contract_address_box {
+          position: absolute;
+          left: 64%;
+          bottom: -110px;
+      }
